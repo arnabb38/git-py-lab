@@ -1,2 +1,1 @@
-# git-py-lab
-Python script to clone all repositories from GitLab groups
+pip3 install -r requirements.txt 
