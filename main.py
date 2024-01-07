@@ -2,6 +2,7 @@
 
 import gitlab_operations
 import config
+import gitlab
 
 
 def main():
