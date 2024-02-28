@@ -19,7 +19,7 @@ def main():
             gitlab_username = input("GitLab UserName: ")
             gitlab_password = input("GitLab Password: ")
 
-        group_name = input("Specific Group Name (xyz / leave it empty): ")
+        group_name = input("Specific Group Name (group OR group/sub-group OR leave it empty): ")
 
         if group_name:
             # Get the specific group

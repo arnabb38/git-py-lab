@@ -41,17 +41,24 @@ This Python script allows you to clone GitLab repositories based on specific gro
 Run the script using the following command:
 
 ```bash
-python script.py
+python main.py
 ```
 
 ## Options
 
 ### Cloning Mode:
 
-- Enter ssh for SSH cloning.
-- Enter http for HTTP cloning.
+- Enter `ssh` for SSH cloning.
+- Enter `http` for HTTP cloning.
 
 ### Specific Group Name:
 
-- Leave empty to process all groups.
-- Enter a specific group name to process only that group.
+- To process all groups/repositories - Leave empty ` `
+- To process a single group - `group`
+- To process a sub-group - `group/sub-group`
+
+
+## TO-DO
+- Add `config.yml` to make it configurable
+- Introduce logger service
+- User input to cloning path
